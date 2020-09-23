@@ -224,3 +224,13 @@ footer{
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+/*COntact */
+
+@media screen and (min-width: 700px) {
+    .escam-form{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

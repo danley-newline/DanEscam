@@ -1,3 +1,27 @@
+<?php
+
+
+    if (isset($_POST['submit'])){
+ 
+    $name = $_POST['name'];
+    $usersEmail = $_POST['email'];
+    $subject = $_POST['sujet']
+    $message= $_POST['message'];
+
+    $to = "danielkacou0@gmail.com";
+    $body = "";
+
+    $body .= "De: ".$name. "\r\n";
+    $body .= "Email: ".$usersEmail. "\r\n";
+    $body .= "Message: ".$message. "\r\n";
+
+    
+    mail($to,$subject,$body);
+    
+    }
+
+?>
+    
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,48 +103,18 @@
   </nav>
 
 
-    <div id="home" class="container-fluid w-100 head-ecole header-home text-center mb-5">
+  <div id="home" class="container-fluid w-100 head-ecole header-home text-center mb-5">
       <img class="w-100" src="assets/image/im2.jpg" alt="Chicago" height="300px">
         <div class="text-ecole head-h2">
           <h2>Espaces Formulaire </h2>
         </div>
     </div>
 
-
-    <div class="container">
-
-      <form action="contact.php" method="POST" class="escam-form mb-5 font-weight-bold" >
-
-                <div class="form-group">
-                    <label for="name">Nom et Prénom</label>
-                    <input type="text" name="name" class="form-control" id="name"
-                        placeholder="entrer le nom" required>
-                </div>
-            
-                <div class="form-group">
-                  <label for="name">Votre Email</label>
-                  <input type="email" name="email" class="form-control" 
-                      placeholder="entrer le nom" required autofocus>
-              </div>
-
-                <div class="form-group">
-                    <label for="name">Sujet</label>
-                    <input type="text" name="sujet" class="form-control" 
-                        placeholder="entrer le nom">
-                </div>
- 
-                <div class="form-group">
-                    <label for="message">votre message</label>
-                    <textarea name="message" id="message" class="form-control"
-                        placeholder="Entrer le message" rows="5" cols="50" required></textarea>
-                </div>
-                <div class="text-center">
-                  <button type="submit" name="submit"  class="btn btn-primary font-weight-bold">Envoyer</button>
-                </div>
-        
-      </form>
+    <div class="container title-filiere mt-5 mb-5 ">
+        <h1 id="bts" class="text-center">Demande Bien Envoyé  <br> Vous pouvez aussi nous joindre au 47 07 28 83</h1>
     </div>
 
+    
     <footer class="page-footer font-small pt-4">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left mt-3 pb-3">
@@ -242,3 +236,5 @@
 </body>
 
 </html>
+
+    
