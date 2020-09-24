@@ -40,35 +40,35 @@ sr.reveal('.diplome.one',{
 sr.reveal('.diplome.two',{
     duration: 2000,
     scale: 0.4,
-    delay: 1700,
+    delay: 1000,
     easing: 'ease-in-out',
     reset: false
 });
 sr.reveal('.diplome.three',{
     duration: 2000,
     scale: 0.4,
-    delay: 3000,
+    delay: 2000,
     easing: 'ease-in-out',
     reset: false
 });
 sr.reveal('.diplome.four',{
     duration: 2000,
     scale: 0.4,
-    delay: 4200,
+    delay: 3000,
     easing: 'ease-in-out',
     reset: false
 });
 sr.reveal('.diplome.five',{
     duration: 2000,
     scale: 0.4,
-    delay: 5500,
+    delay: 4000,
     easing: 'ease-in-out',
     reset: false
 });
 sr.reveal('.diplome.six',{
     duration: 2000,
     scale: 0.4,
-    delay: 6700,
+    delay: 5000,
     easing: 'ease-in-out',
     reset: false
 });
@@ -101,11 +101,11 @@ sr.reveal('.fondateur h1, .fondateur h2, .fondateur img',{
 
 sr.reveal('.fondateur h1',{
     origin : 'bottom',
-    delay  : 2000,
+    delay  : 1500,
 });
 sr.reveal('.fondateur img',{
     origin : 'bottom',
-    delay  : 2000,
+    delay  : 1000,
 });
 
 sr.reveal('.text-fondateur, .present-escam',{
@@ -123,4 +123,15 @@ sr.reveal('.certif h1',{
     distance: '20%',
     origin : 'right',
     reset:false
+});
+
+
+sr.reveal('.homologue',{
+    duration: 3000,
+    scale: 0.5,
+    delay  : 2000,
+    origin: 'top',
+    distance:'50px',
+    reset:false
+    
 });

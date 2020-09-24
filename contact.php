@@ -5,7 +5,7 @@
  
     $name = $_POST['name'];
     $usersEmail = $_POST['email'];
-    $subject = $_POST['sujet']
+    $subject = $_POST['sujet'];
     $message= $_POST['message'];
 
     $to = "danielkacou0@gmail.com";
@@ -111,115 +111,113 @@
     </div>
 
     <div class="container title-filiere mt-5 mb-5 ">
-        <h1 id="bts" class="text-center">Demande Bien Envoyé  <br> Vous pouvez aussi nous joindre au 47 07 28 83</h1>
+        <h1 id="bts" class="text-center">Message Bien Envoyé  <br> Vous pouvez aussi nous joindre au 49 24 48 11</h1>
     </div>
 
     
     <footer class="page-footer font-small pt-4">
-        <div class="container text-center text-md-left">
-            <div class="row text-center text-md-left mt-3 pb-3">
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Groupe ESCAM </h6>
-                    <p class="text-uppercase font-weight-bold">SIEGE SOCIAL :</p>
-                    <p>Abidjan Cocody, Non loin de l'Ecole de la Gendarmerie face Café BAO.</p>
-                </div>
-
-                <hr class="w-100 clearfix d-md-none">
-
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Siege-ABidjan</h6>
-                    <p> <a href="#!">Cocody - 49 24 48 11</a> </p>
-                    <p> <a href="#!">Bingerville - 09 56 41 79</a> </p>
-                    <p> <a href="#!">Yopougon - 07 50 49 33</a> </p>
-                    <p> <a href="#!">Abobo - 07 96 99 98</a> </p>
-                </div>
-
-                <hr class="w-100 clearfix d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Siege interieur</h6>
-                    <p> <a href="#!">Bouake - 59 23 46 19</a> </p>
-                    <p> <a href="#!">San Pedro - 47 07 28 83</a> </p>
-                    <p> <a href="#!">Man - 08 04 44 67</a> </p>
-
-                </div>
-
-                <!-- Grid column -->
-                <hr class="w-100 clearfix d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <p>
-                        <i class="fas fa-home mr-3"></i> Abidjan, Cocody, CI</p>
-                    <p>
-                        <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                    <p>
-                        <i class="fas fa-phone mr-3"></i> +225 49 24 48 11</p>
-                    <p>
-                        <i class="fas fa-print mr-3"></i> +225 07 50 49 33</p>
-                </div>
-
-
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left mt-3 pb-3">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">ESCAM ABidjan</h6>
+                
+                <p> <a href="#!">Escam Cocody - 49 24 48 11</a> </p>
+                <p> <a href="#!">Escam Bingerville - 09 56 41 79</a> </p>
+                <p> <a href="#!">Escam Yopougon - 07 50 49 33</a> </p>
+                <p> <a href="#!">Escam Abobo - 07 96 99 98</a> </p>
+                <p> <a href="#!">ESIE Cocody - 49 24 48 11</a> </p>
+                <p> <a href="#!">ESIE Yopougon - 07 50 49 33</a> </p>
             </div>
 
-            <hr>
+            <hr class="w-100 clearfix d-md-none">
 
-            <!-- Grid row -->
-            <div class="row d-flex align-items-center">
-
-                <div class="col-md-7 col-lg-8">
-
-                    <!--Copyright-->
-                    <p class="text-center text-md-left">© 2020 Tous Droit Réservé:
-                        <a href="#!">
-                            <strong> ESCAM CI</strong>
-                        </a>
-                    </p>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-5 col-lg-4 ml-lg-0">
-
-                    <!-- Social buttons -->
-                    <div class="text-center text-md-right">
-                        <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <!-- Grid column -->
-
+            <div class="col-md-4 col-lg-3 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Siege interieur</h6>
+                <p> <a href="#!">Escam Bouake - 59 23 46 19</a> </p>
+                <p> <a href="#!">Escam San Pedro - 47 07 28 83</a> </p>
+                <p> <a href="#!">Escam Man - 08 04 44 67</a> </p>
             </div>
-            <!-- Grid row -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p><i class="fas fa-home mr-3"></i> Abidjan, Cocody, CI</p>
+                <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> +225 49 24 48 11</p>
+                <p><i class="fas fa-print mr-3"></i> +225 07 50 49 33</p>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Groupe ESCAM </h6>
+              <p class="text-uppercase font-weight-bold">SIEGE SOCIAL :</p>
+              <p>Abidjan Cocody, Non loin de l'Ecole de la Gendarmerie face Café BAO.</p>
+            </div>
+
 
         </div>
-        <!-- Footer Links -->
 
-    </footer>
+        <hr>
+
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+
+            <div class="col-md-7 col-lg-8">
+
+                <!--Copyright-->
+                <p class="text-center text-md-left">© 2020 Tous Droit Réservé:
+                    <a href="#!">
+                        <strong> ESCAM CI</strong>
+                    </a>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                <!-- Social buttons -->
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+</footer>
     <!-- Footer -->
 
 
