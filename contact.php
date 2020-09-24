@@ -43,7 +43,7 @@
   <nav id="navbar_top" class="navbar navbar-expand-lg w-100">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/image/log.png" alt="" width="80" height="80">
+        <img src="assets/image/log.png" alt="" width="150" height="80">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
               L'Ecole
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="apropos.html">Entete</a>
+              <a class="dropdown-item" href="apropos.html">Accueil Ecole</a>
               <a class="dropdown-item" href="apropos.html#mot-dir">Mot du fondateur</a>
               <a class="dropdown-item" href="apropos.html#pre-escam">Presentation Escam</a>
               <a class="dropdown-item" href="apropos.html#mission-escam">Notre Mission</a>
@@ -74,7 +74,7 @@
               Formation
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="formation.html">Entete</a>
+              <a class="dropdown-item" href="formation.html">Accueil Formation</a>
               <a class="dropdown-item" href="formation.html#diplo">Nos Diplômes</a>
               <a class="dropdown-item" href="formation.html#branch">Branches pro</a>
             </div>
@@ -85,7 +85,7 @@
               Filliere
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="filliere.html">Entete</a>
+              <a class="dropdown-item" href="filliere.html">Accueil Filliere</a>
               <a class="dropdown-item" href="filliere.html#bts">BTS</a>
               <a class="dropdown-item" href="filliere.html#licpro">Licence pro / DUT</a>
               <a class="dropdown-item" href="filliere.html#ingern">Ingenieur / Master I</a>
@@ -119,7 +119,7 @@
     <div class="container text-center text-md-left">
         <div class="row text-center text-md-left mt-3 pb-3">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">ESCAM ABidjan</h6>
+                <h6 class="text-uppercase mb-4 font-weight-bold">ESCAM & ESIE ABidjan</h6>
                 
                 <p> <a href="#!">Escam Cocody - 49 24 48 11</a> </p>
                 <p> <a href="#!">Escam Bingerville - 09 56 41 79</a> </p>
