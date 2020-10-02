@@ -135,3 +135,7 @@ sr.reveal('.homologue',{
     reset:false
     
 });
+
+(function blink() {
+    $('.blink_me').fadeOut(700).fadeIn(700, blink);
+  })();

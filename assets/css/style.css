@@ -32,8 +32,7 @@
     position: absolute;
     top: 20%;
    text-align: center;
-   width: 70%;
-   color: #fff;
+   width: 100%;
    font-family: Georgia, serif;
 }
 
@@ -56,6 +55,7 @@
     font-size: 55px;
     font-weight: bold;
     letter-spacing: 3px;
+    color: #db6b09;
     text-shadow: 2px 1px 0px #000;
 }
 
@@ -246,7 +246,7 @@ footer{
       background: red;
   }
   .back-bleu{
-      background: blue;
+      background: #010136;
   }
   .back-orange{
       background: #a06903;
@@ -256,7 +256,7 @@ footer{
         display: none;
     }
   }
-
+  
   @media screen and (min-width: 1200px) {
     .homologue{
     position: absolute;
@@ -270,5 +270,15 @@ footer{
     width: 329px;
     height: 124px;
     text-align: right;
+    }
+  }
+
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    100% {
+      opacity: 0;
     }
   }
